@@ -8,6 +8,11 @@
 }
 
 
+body, html {
+  height: 100%;
+  background-color: black;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
 
 
 .navbar{
@@ -16,9 +21,9 @@
 .navbar ul{
     overflow: auto;
 }
+
 .navbar li{
     float:left;
-    list-style: none; 
     margin: 13px 20px;      
 }
 
@@ -32,17 +37,11 @@
 
 .navbar li a{
     padding: 3px 3px;
-    text-decoration: none;
     color: white;
 }
-.navbar li a:hover, .navbar p:hover{
-    color: red
-}
-
-
- .navbar #title:hover{
+.navbar li a:hover, .navbar p:hover, .navbar #title:hover{
     color: red;
-    cursor:pointer
+    cursor: pointer;
 }
 
 
@@ -88,11 +87,6 @@ footer .content .lower i{
   }
 }
 
-body, html {
-    height: 100%;
-    background-color: black;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-}
 
 
 .hero-image {
